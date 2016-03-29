@@ -1,0 +1,128 @@
+<div class="container-fluid bg-clouds">
+    <div>
+        <div class="container m-t bg-white">
+            <h2>Gallery</h2>
+            <div id="myCarousel" class="carousel slide default-carousel full-width-carousel">
+                <hr/>
+ 
+                <a class="carousel-control left image-carousel" href="#myCarousel" data-slide="prev"><i class="fa fa-angle-left dark"></i></a>
+                <a class="carousel-control right image-carousel" href="#myCarousel" data-slide="next"><i class="fa fa-angle-right dark"></i></a>
+ 
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <ul class="gallery no-list-style row no-margin thumbnails double-gap-top">
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-1.jpg" title="Photo Title" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-1.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-2.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-2.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-3.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-3.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-4.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-4.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3 no-left-margin">
+                                <a class="thumbnail" href="img/gallery/image-7.jpg" title="Photo Title" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-7.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-8.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-8.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-9.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-9.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-6.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-6.jpg"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <ul class="gallery no-list-style row no-margin thumbnails double-gap-top">
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-1.jpg" title="Photo Title" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-1.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-2.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-2.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-3.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-3.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-4.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-4.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3 no-left-margin">
+                                <a class="thumbnail" href="img/gallery/image-7.jpg" title="Photo Title" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-7.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-8.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-8.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-9.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-9.jpg"/>
+                                </a>
+                            </li>
+                            <li class="col-md-3">
+                                <a class="thumbnail" href="img/gallery/image-6.jpg" data-rel="colorbox">
+                                    <img alt="150x150" src="img/gallery/thumb-6.jpg"/>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+<script type="text/javascript">
+  $(function() {
+      var colorbox_params = {
+      reposition:true,
+      scalePhotos:true,
+      close:'&times;',
+      current:'{current} of {total}',
+      maxWidth:'100%',
+      maxHeight:'100%',
+      onOpen:function(){
+        document.body.style.overflow = 'hidden';
+      },
+      onClosed:function(){
+        document.body.style.overflow = 'auto';
+      },
+      onComplete:function(){
+        $.colorbox.resize();
+      }
+    };
+
+    $('.gallery [data-rel="colorbox"]').colorbox(colorbox_params);
+    //let's add a custom loading icon
+  });
+  
+</script> </div>
+</div>
+</div>
