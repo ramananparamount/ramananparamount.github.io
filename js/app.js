@@ -18,13 +18,45 @@ myapp.config(function($stateProvider, $urlRouterProvider){
         templateUrl: "partials/training.html"
     })
     .state('managementsystems', {
-        url: "/managementsystems",
-        templateUrl: "partials/managementsys.html"
+        url: "/managementsystems/:catId",
+        templateUrl: "partials/managementsys.html",
+        controller: function($scope,$http,$filter,$stateParams,$sce){
+            $http.get("/data/systems.json").success(function (data){
+                        var details = [];
+                        details = ($filter('filter')(data,{"topic":$stateParams.catId}));
+                        $scope.details=details[0];
+                        console.log(details[0]);
+                    }).error(function(err,status){
+                        console.data(status);
+                });
+            $scope.$sce=$sce;
+            $scope.HasQuiz = $stateParams.catId == "systems" ? false : true;
+            $scope.quizlink = "quiz({'catId':'" + $stateParams.catId +"'})";
+        }
     })
     .state('gallery', {
         url: "/gallery",
         templateUrl: "partials/gallery.html"
     })
+    .state('quiz', {
+        url: "/quiz/:catId",
+        templateUrl: "partials/quiz.html",
+        controller: function($scope,$http,$filter,$stateParams){
+            $http.get("/data/quiz.json").success(function (data){
+                        var queries = [];
+                        queries = ($filter('filter')(data,{"topic":$stateParams.catId}));
+                        $scope.qrys=queries[0].questions;
+                    }).error(function(err,status){
+                        console.data(status);
+                });
+            $scope.setShowResult = function (disabled){
+                disabled = true;
+            };
+            $scope.getShowResult = function (answer){
+                return (answer > 0);
+            };
+        }
+    })    
 })
 
 .run(['$rootScope','$window', function($rootScope,$window) {
@@ -33,3 +65,20 @@ myapp.config(function($stateProvider, $urlRouterProvider){
     })
 
 }])
+
+//.controller("quizCtrl",['$scope','$http','$filter', function ($scope,$http,$filter){
+//    $http.get("/data/quiz.json").success(function (data){
+//                var queries = [];
+//                queries = ($filter('filter')(data,{"topic":"Environment"}));
+//                $scope.qrys=queries[0].questions;
+//            }).error(function(err,status){
+//                console.data(status);
+//        });
+//    $scope.setShowResult = function (disabled){
+//        disabled = true;
+//    };
+//    $scope.getShowResult = function (answer){
+//        return (answer > 0);
+//    };
+//    
+//}])

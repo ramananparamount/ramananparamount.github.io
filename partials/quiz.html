@@ -1,0 +1,40 @@
+<div class="container-fluid bg bg-clouds">
+    <div class="container bg bg-white">
+        <div class="col-md-3">
+              <ul class="sidebar-nav nav nav-pills nav-stacked">
+                <li class="active toplevel"><a ui-sref="managementsystems({'catId':'systems'})">Management Systems</a></li>
+                <li><a ui-sref="managementsystems({'catId':'quality'})">Quality</a></li>
+                <li><a ui-sref="managementsystems({'catId':'environment'})">Environment</a></li>
+                <li><a ui-sref="managementsystems({'catId':'infosec'})">Information Security</a></li>
+                <li><a ui-sref="managementsystems({'catId':'energy'})">Energy</a></li>
+                <li><a ui-sref="managementsystems({'catId':'antibribery'})">Anti-Bribery</a></li>
+                <li><a ui-sref="managementsystems({'catId':'automotive'})">Automotive</a></li>
+                <li><a ui-sref="managementsystems({'catId':'riskmgmt'})">Risk Management</a></li>
+                <li><a ui-sref="managementsystems({'catId':'servmgmt'})">Service Management</a></li>
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <h2 class="text-center">Your discounts = Your skill level</h2>
+            <br>
+            <div class="text-center">Take this quiz and claim upto <strong>25%</strong> discount</div>
+            <br>
+            <div ng-repeat="qry in qrys | orderBy: 'sno'" ng-class-odd="'cssProductOdd'" ng-class-even="'cssProductEven'">
+                <div class="query">
+                    <div class="querycontent">{{qry.sno}}. {{qry.content}}</div>
+                    <form class="ansSel">
+                        <div class="ansoptions" ng-repeat="opt in qry.options">
+                            <label>
+                                <input type="radio" name="qry.sno" ng-model="qry.submitAns" ng-value="opt.optno" ng-disabled="getShowResult(qry.submitAns)">{{opt.content}}
+                            </label>
+                        </div>
+                    </form>
+                    <div class="selAnswer" ng-show="getShowResult(qry.submitAns)">
+                        <span ng-show="qry.submitAns == qry.answeropt">Correct</span>
+                        <span ng-hide="qry.submitAns == qry.answeropt">X  Correct Answer: {{qry.options[qry.answeropt-1].content}}</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

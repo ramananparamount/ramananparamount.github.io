@@ -1,0 +1,809 @@
+[
+    {
+        "topic":"quality",
+        "questions": [
+        {
+            "sno":"1",
+            "content":"Who is India's First Prime Minister?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Jawaharlal Nehru"
+                },
+                {
+                    "optno":"2",
+                    "content":"Indira Gandhi"
+                },
+                {
+                    "optno":"3",
+                    "content":"Sardar Vallabhai Patel"
+                }
+            ],
+            "answeropt":"1"
+        },
+        {
+            "sno":"2",
+            "content":"Who is India's First President?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Abdul Kalam"
+                },
+                {
+                    "optno":"2",
+                    "content":"Muhammed Jinnah"
+                },
+                {
+                    "optno":"3",
+                    "content":"Rajendra Prasad"
+                }
+            ],
+            "answeropt":"3"
+        },
+        {
+            "sno":"3",
+            "content":"Which is India's Capital city before New Delhi?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Lahore"
+                },
+                {
+                    "optno":"2",
+                    "content":"Calcutta"
+                },
+                {
+                    "optno":"3",
+                    "content":"Nashik"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"4",
+            "content":"Who founded IBM?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Ross Perot"
+                },
+                {
+                    "optno":"2",
+                    "content":"Charles Ranlett Flint"
+                },
+                {
+                    "optno":"3",
+                    "content":"Thomas Alva Edison"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"5",
+            "content":"Choose the correct Quality ISO standards.",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"ISO 9001-2015"
+                },
+                {
+                    "optno":"2",
+                    "content":"ISO 14000:2015"
+                },
+                {
+                    "optno":"3",
+                    "content":"CMMI"
+                }
+            ],
+            "answeropt":"2"
+        }
+     ]
+    },
+    {
+        "topic":"environment",
+        "questions": [
+        {
+            "sno":"1",
+            "content":"Who is India's First President?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Abdul Kalam"
+                },
+                {
+                    "optno":"2",
+                    "content":"Muhammed Jinnah"
+                },
+                {
+                    "optno":"3",
+                    "content":"Rajendra Prasad"
+                }
+            ],
+            "answeropt":"3"
+        },
+        {
+            "sno":"2",
+            "content":"Who is India's First Prime Minister?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Jawaharlal Nehru"
+                },
+                {
+                    "optno":"2",
+                    "content":"Indira Gandhi"
+                },
+                {
+                    "optno":"3",
+                    "content":"Sardar Vallabhai Patel"
+                }
+            ],
+            "answeropt":"1"
+        },
+        {
+            "sno":"3",
+            "content":"Which is India's Capital city before New Delhi?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Lahore"
+                },
+                {
+                    "optno":"2",
+                    "content":"Calcutta"
+                },
+                {
+                    "optno":"3",
+                    "content":"Nashik"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"4",
+            "content":"Who founded IBM?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Ross Perot"
+                },
+                {
+                    "optno":"2",
+                    "content":"Charles Ranlett Flint"
+                },
+                {
+                    "optno":"3",
+                    "content":"Thomas Alva Edison"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"5",
+            "content":"Choose the correct Environmental ISO standards.",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"ISO 9001-2015"
+                },
+                {
+                    "optno":"2",
+                    "content":"ISO 14000:2015"
+                },
+                {
+                    "optno":"3",
+                    "content":"CMMI"
+                }
+            ],
+            "answeropt":"2"
+        }
+     ]
+    },
+    {
+        "topic":"infosec",
+        "questions": [
+        {
+            "sno":"1",
+            "content":"Who is India's First President?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Abdul Kalam"
+                },
+                {
+                    "optno":"2",
+                    "content":"Muhammed Jinnah"
+                },
+                {
+                    "optno":"3",
+                    "content":"Rajendra Prasad"
+                }
+            ],
+            "answeropt":"3"
+        },
+        {
+            "sno":"2",
+            "content":"Who is India's First Prime Minister?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Jawaharlal Nehru"
+                },
+                {
+                    "optno":"2",
+                    "content":"Indira Gandhi"
+                },
+                {
+                    "optno":"3",
+                    "content":"Sardar Vallabhai Patel"
+                }
+            ],
+            "answeropt":"1"
+        },
+        {
+            "sno":"3",
+            "content":"Which is India's Capital city before New Delhi?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Lahore"
+                },
+                {
+                    "optno":"2",
+                    "content":"Calcutta"
+                },
+                {
+                    "optno":"3",
+                    "content":"Nashik"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"4",
+            "content":"Who founded IBM?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Ross Perot"
+                },
+                {
+                    "optno":"2",
+                    "content":"Charles Ranlett Flint"
+                },
+                {
+                    "optno":"3",
+                    "content":"Thomas Alva Edison"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"5",
+            "content":"Choose the correct Environmental ISO standards.",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"ISO 9001-2015"
+                },
+                {
+                    "optno":"2",
+                    "content":"ISO 14000:2015"
+                },
+                {
+                    "optno":"3",
+                    "content":"CMMI"
+                }
+            ],
+            "answeropt":"2"
+        }
+     ]
+    },
+    {
+        "topic":"energy",
+        "questions": [
+        {
+            "sno":"1",
+            "content":"Who is India's First President?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Abdul Kalam"
+                },
+                {
+                    "optno":"2",
+                    "content":"Muhammed Jinnah"
+                },
+                {
+                    "optno":"3",
+                    "content":"Rajendra Prasad"
+                }
+            ],
+            "answeropt":"3"
+        },
+        {
+            "sno":"2",
+            "content":"Who is India's First Prime Minister?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Jawaharlal Nehru"
+                },
+                {
+                    "optno":"2",
+                    "content":"Indira Gandhi"
+                },
+                {
+                    "optno":"3",
+                    "content":"Sardar Vallabhai Patel"
+                }
+            ],
+            "answeropt":"1"
+        },
+        {
+            "sno":"3",
+            "content":"Which is India's Capital city before New Delhi?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Lahore"
+                },
+                {
+                    "optno":"2",
+                    "content":"Calcutta"
+                },
+                {
+                    "optno":"3",
+                    "content":"Nashik"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"4",
+            "content":"Who founded IBM?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Ross Perot"
+                },
+                {
+                    "optno":"2",
+                    "content":"Charles Ranlett Flint"
+                },
+                {
+                    "optno":"3",
+                    "content":"Thomas Alva Edison"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"5",
+            "content":"Choose the correct Environmental ISO standards.",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"ISO 9001-2015"
+                },
+                {
+                    "optno":"2",
+                    "content":"ISO 14000:2015"
+                },
+                {
+                    "optno":"3",
+                    "content":"CMMI"
+                }
+            ],
+            "answeropt":"2"
+        }
+     ]
+    },
+    {
+        "topic":"antibribery",
+        "questions": [
+        {
+            "sno":"1",
+            "content":"Who is India's First President?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Abdul Kalam"
+                },
+                {
+                    "optno":"2",
+                    "content":"Muhammed Jinnah"
+                },
+                {
+                    "optno":"3",
+                    "content":"Rajendra Prasad"
+                }
+            ],
+            "answeropt":"3"
+        },
+        {
+            "sno":"2",
+            "content":"Who is India's First Prime Minister?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Jawaharlal Nehru"
+                },
+                {
+                    "optno":"2",
+                    "content":"Indira Gandhi"
+                },
+                {
+                    "optno":"3",
+                    "content":"Sardar Vallabhai Patel"
+                }
+            ],
+            "answeropt":"1"
+        },
+        {
+            "sno":"3",
+            "content":"Which is India's Capital city before New Delhi?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Lahore"
+                },
+                {
+                    "optno":"2",
+                    "content":"Calcutta"
+                },
+                {
+                    "optno":"3",
+                    "content":"Nashik"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"4",
+            "content":"Who founded IBM?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Ross Perot"
+                },
+                {
+                    "optno":"2",
+                    "content":"Charles Ranlett Flint"
+                },
+                {
+                    "optno":"3",
+                    "content":"Thomas Alva Edison"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"5",
+            "content":"Choose the correct Environmental ISO standards.",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"ISO 9001-2015"
+                },
+                {
+                    "optno":"2",
+                    "content":"ISO 14000:2015"
+                },
+                {
+                    "optno":"3",
+                    "content":"CMMI"
+                }
+            ],
+            "answeropt":"2"
+        }
+     ]
+    },
+    {
+        "topic":"automotive",
+        "questions": [
+        {
+            "sno":"1",
+            "content":"Who is India's First President?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Abdul Kalam"
+                },
+                {
+                    "optno":"2",
+                    "content":"Muhammed Jinnah"
+                },
+                {
+                    "optno":"3",
+                    "content":"Rajendra Prasad"
+                }
+            ],
+            "answeropt":"3"
+        },
+        {
+            "sno":"2",
+            "content":"Who is India's First Prime Minister?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Jawaharlal Nehru"
+                },
+                {
+                    "optno":"2",
+                    "content":"Indira Gandhi"
+                },
+                {
+                    "optno":"3",
+                    "content":"Sardar Vallabhai Patel"
+                }
+            ],
+            "answeropt":"1"
+        },
+        {
+            "sno":"3",
+            "content":"Which is India's Capital city before New Delhi?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Lahore"
+                },
+                {
+                    "optno":"2",
+                    "content":"Calcutta"
+                },
+                {
+                    "optno":"3",
+                    "content":"Nashik"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"4",
+            "content":"Who founded IBM?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Ross Perot"
+                },
+                {
+                    "optno":"2",
+                    "content":"Charles Ranlett Flint"
+                },
+                {
+                    "optno":"3",
+                    "content":"Thomas Alva Edison"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"5",
+            "content":"Choose the correct Environmental ISO standards.",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"ISO 9001-2015"
+                },
+                {
+                    "optno":"2",
+                    "content":"ISO 14000:2015"
+                },
+                {
+                    "optno":"3",
+                    "content":"CMMI"
+                }
+            ],
+            "answeropt":"2"
+        }
+     ]
+    },
+    {
+        "topic":"riskmgmt",
+        "questions": [
+        {
+            "sno":"1",
+            "content":"Who is India's First President?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Abdul Kalam"
+                },
+                {
+                    "optno":"2",
+                    "content":"Muhammed Jinnah"
+                },
+                {
+                    "optno":"3",
+                    "content":"Rajendra Prasad"
+                }
+            ],
+            "answeropt":"3"
+        },
+        {
+            "sno":"2",
+            "content":"Who is India's First Prime Minister?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Jawaharlal Nehru"
+                },
+                {
+                    "optno":"2",
+                    "content":"Indira Gandhi"
+                },
+                {
+                    "optno":"3",
+                    "content":"Sardar Vallabhai Patel"
+                }
+            ],
+            "answeropt":"1"
+        },
+        {
+            "sno":"3",
+            "content":"Which is India's Capital city before New Delhi?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Lahore"
+                },
+                {
+                    "optno":"2",
+                    "content":"Calcutta"
+                },
+                {
+                    "optno":"3",
+                    "content":"Nashik"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"4",
+            "content":"Who founded IBM?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Ross Perot"
+                },
+                {
+                    "optno":"2",
+                    "content":"Charles Ranlett Flint"
+                },
+                {
+                    "optno":"3",
+                    "content":"Thomas Alva Edison"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"5",
+            "content":"Choose the correct Environmental ISO standards.",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"ISO 9001-2015"
+                },
+                {
+                    "optno":"2",
+                    "content":"ISO 14000:2015"
+                },
+                {
+                    "optno":"3",
+                    "content":"CMMI"
+                }
+            ],
+            "answeropt":"2"
+        }
+     ]
+    },
+    {
+        "topic":"servmgmt",
+        "questions": [
+        {
+            "sno":"1",
+            "content":"Who is India's First President?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Abdul Kalam"
+                },
+                {
+                    "optno":"2",
+                    "content":"Muhammed Jinnah"
+                },
+                {
+                    "optno":"3",
+                    "content":"Rajendra Prasad"
+                }
+            ],
+            "answeropt":"3"
+        },
+        {
+            "sno":"2",
+            "content":"Who is India's First Prime Minister?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Jawaharlal Nehru"
+                },
+                {
+                    "optno":"2",
+                    "content":"Indira Gandhi"
+                },
+                {
+                    "optno":"3",
+                    "content":"Sardar Vallabhai Patel"
+                }
+            ],
+            "answeropt":"1"
+        },
+        {
+            "sno":"3",
+            "content":"Which is India's Capital city before New Delhi?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Lahore"
+                },
+                {
+                    "optno":"2",
+                    "content":"Calcutta"
+                },
+                {
+                    "optno":"3",
+                    "content":"Nashik"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"4",
+            "content":"Who founded IBM?",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"Ross Perot"
+                },
+                {
+                    "optno":"2",
+                    "content":"Charles Ranlett Flint"
+                },
+                {
+                    "optno":"3",
+                    "content":"Thomas Alva Edison"
+                }
+            ],
+            "answeropt":"2"
+        },
+        {
+            "sno":"5",
+            "content":"Choose the correct Environmental ISO standards.",
+            "options":[
+                {
+                    "optno":"1",
+                    "content":"ISO 9001-2015"
+                },
+                {
+                    "optno":"2",
+                    "content":"ISO 14000:2015"
+                },
+                {
+                    "optno":"3",
+                    "content":"CMMI"
+                }
+            ],
+            "answeropt":"2"
+        }
+     ]
+    }
+
+
+
+
+
+
+
+]
