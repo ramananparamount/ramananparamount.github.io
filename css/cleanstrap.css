@@ -251,6 +251,14 @@ input[type=radio]:disabled{
 }
 
 
+img.logo{
+    width:100px;
+    height:40px;
+    background-color: transparent;
+    border-radius: 2px;
+    box-shadow:0 0 14px rgba(0,0,0,0.3);
+}
+
 [ui-view].ng-enter, [ui-view].ng-leave {
   position: absolute;
   left: 0;
