@@ -152,6 +152,12 @@ body {
     vertical-align:middle
 }
 
+.pad-min {
+    padding: 3px;
+    letter-spacing: 0.5px;
+}
+
+
 .rs-next,.rs-prev  {
     color: #000;
 }
@@ -209,7 +215,6 @@ input[type=radio]:disabled{
     font-size:0.9em;
 }
 
-
 .ansoptions {
     padding-left:40px;
     display:inline;
@@ -218,6 +223,60 @@ input[type=radio]:disabled{
 .selAnswer {
     padding-left:40px;
 }
+
+
+.coursevideo{
+    position:relative;
+    z-index: 1;
+    height:55vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#overlay{
+    position: absolute; 
+    top: 100px;
+    left:50px;
+    color: #FFF; 
+    text-align: center;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 500px;
+    padding: 10px 0;
+    z-index: 2;
+    visibility:hidden;
+}
+
+#overlay input[type=email]{
+    color:#000;
+}
+
+
+[ui-view].ng-enter, [ui-view].ng-leave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+}
+
+[ui-view].ng-enter {
+  opacity: 0;
+}
+
+[ui-view].ng-enter-active {
+  opacity: 1;
+}
+
+[ui-view].ng-leave {
+  opacity: 1;
+}
+
+[ui-view].ng-leave-active {
+  opacity: 0;
+}
+
+
+
 /***************************/
 
 

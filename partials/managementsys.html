@@ -15,9 +15,48 @@
         </div>
         <div class="col-md-9">
             <strong>{{details.title}}</strong>
-            <br/><br/><br/><span ng-bind-html="$sce.trustAsHtml(details.details)"></span>
-            <a ng-show="HasQuiz" class="btn btn-danger" ui-sref="{{quizlink}}">Claim Training Discounts</a>
-            
+            <br/><span ng-bind-html="$sce.trustAsHtml(details.details)"></span>
+            <div ng-show="HasQuiz" class="col-md-6">
+                <video id="IDvideo" class="coursevideo" controls onended="videoEnded()" preload="auto">
+                    <source src="http://media.w3.org/2010/05/bunny/trailer.mp4" type="video/mp4">
+                </video> 
+                <div id="overlay">
+                    <div>Test Your skills</div>
+                    <div ng-hide="ShowProfile">
+                        <div class="querycontent">{{qry.sno}}. {{qry.content}}</div>
+                        <form class="ansSel">
+                            <div class="ansoptions" ng-repeat="opt in qry.options">
+                                <label>
+                                    <input type="radio" name="qry.sno" ng-model="qry.submitAns" ng-value="opt.optno" ng-disabled="getShowResult(qry.submitAns)" ng-change="updateAnswer(qry.submitAns)">{{opt.content}}
+                                </label>
+                            </div>
+                        </form>
+                        <div class="selAnswer" ng-show="getShowResult(qry.submitAns)">
+                            <span ng-show="qry.submitAns == qry.answeropt">Correct</span>
+                            <span ng-hide="qry.submitAns == qry.answeropt">X  Correct Answer: {{qry.options[qry.answeropt-1].content}}</span>
+                        </div>
+
+                    </div>
+                    <div class="nextQ" ng-show="getShowResult(qry.submitAns)">
+                        <button ng-click="DisplayNextQ()" ng-show="ShowNext" class="btn btn-primary">Next Question</button>
+                        <button ng-click="DisplayResult()" ng-show="ShowResult" class="btn btn-primary">Show Result</button>
+                    </div>
+                    <div class="result" ng-hide="ShowProfile">
+                        {{DisplayResultMessage}}
+                    </div>
+                    <div class="profile" ng-show="ShowProfile">
+                        <input type="email" placeholder="Email Address">
+                        <label>
+                            <input type="checkbox">Send NewsLetter
+                        </label>
+                        <br>
+                    </div>
+                    <button ng-click="RetakeExam()" ng-show="videoRerun" class="btn btn-primary">Retake Exam</button>
+                    <a ng-click="RegisterUser()" ng-show="ShowRegister" class="btn btn-primary">Claim Discounts</a>
+                </div>
+            </div>
+<!--            <a ng-show="HasQuiz" class="btn btn-danger" ui-sref="{{quizlink}}">Claim Training Discounts</a>-->
+            <br/>
         </div>
     </div>
 </div>
