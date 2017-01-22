@@ -184,6 +184,12 @@ p.intro-small {
 .font-22px {
 	font-size: 22px !important;
 }
+.font-24px {
+	font-size: 24px !important;
+}
+.font-28px {
+	font-size: 28px !important;
+}
 .font-underline {
 	text-decoration: underline !important;
 }
@@ -212,7 +218,7 @@ a:hover, a:focus {
 	color: #f6b138;
 }
 .text-highlight {
-	color: #ff3600;
+	color: #ff3600 !important;
 }
 
 .text-center {
@@ -1559,7 +1565,8 @@ header.coporate-header .is-sticky .sticky .ownmenu > li > .megamenu {
       HOME SLIDER
 ========================================================*/
 .home-slider {
-	height: 100%;
+	/*height: 100%;*/
+	height: 90vh;
 	position: relative;
 	overflow: hidden;
 }
@@ -1844,6 +1851,10 @@ header.coporate-header .is-sticky .sticky .ownmenu > li > .megamenu {
 .width-100 {
 	width: 100% !important;
 }
+.width-150 {
+	width: 150% !important;
+}
+
 .nav-active .owl-nav div {
 	color: #fff;
 	height: 53px;
@@ -3297,7 +3308,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 ========================================================*/
 .sub-banner {
 	/*min-height: 700px;*/
-	min-height: 200px;
+	min-height: 300px;
 	background: url(../images/bg/sub-bnr-bg.jpg) center center fixed no-repeat;
 	background-size: cover;
 	text-align: center;

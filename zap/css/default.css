@@ -78,6 +78,11 @@ blockquote span {
 	font-size: 22px;
 	margin: 0px;
 }
+.portfolio-stream h4{
+	font-size: 18px;
+	margin: 0px;
+}
+
 .portfolio-stream.foundation {
 	background: linear-gradient(to right, rgba(34,33,108,0.3) 5%,rgba(34,33,108,0.9)80%,rgba(34,33,108,0.3));
 }
@@ -365,4 +370,8 @@ blockquote span {
 	word-wrap: break-word;
 	line-height: 60px;
 	font-style: normal;
+}
+
+.blue-bg {
+	background-color: #8FC0D5;
 }
